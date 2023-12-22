@@ -5,8 +5,10 @@ import { deskTool } from 'sanity/desk';
 import schemas from './schemas/schema';
 
 export default defineConfig({
-  title: 'portfolio',
-  projectId: 'cmvslwxy',
+  name: 'default',
+  title: 'Peju-portfolio',
+
+  projectId: 'nbo9fpie',
   dataset: 'production',
   plugins: [deskTool(), visionTool(), vercelDeployTool()],
   schema: {
